@@ -1,0 +1,48 @@
+<h1>Log File Analyzer</h1>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="navigation-bar">
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a routerLink="analyze" routerLinkActive="active">Analyze</a></li>
+            <li><a routerLink="visualize" routerLinkActive="active">Visualize</a></li>
+            <li><a routerLink="search" routerLinkActive="active">Search</a></li>
+            <li><a routerLink="sorting" routerLinkActive="active">Sort</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+        <div id="navigation-container1">
+    
+<ul> 
+      
+<li><button  type="button" (click)="downloadButtonPush()">Download</button></li>
+    
+<li><button  type="button" (click)="logout()">Log Analyzer</button></li>
+  </ul>
+</div>
+
+      </div>
+    </nav>
+
+<!-- <div class="topnav">
+    <a routerLink="analyze" routerLinkActive="active">Analyze</a>
+    <a routerLink="visualize" routerLinkActive="active">Visualize</a>
+    <a routerLink="search" routerLinkActive="active">Search</a>
+    <a routerLink="sorting" routerLinkActive="active">Sort</a>
+    <div class="topnav-right">
+      <button type="button" (click)="logout()">Log Analyzer</button>
+    </div>
+  </div> -->
+  
+
+  <!-- <div class="header">
+      <a href="#default" class="logo">Log File Analyzer</a>
+      <div class="header-right">
+          <a routerLink="analyze" routerLinkActive="active">Analyze</a>
+          <a routerLink="visualize" routerLinkActive="active">Visualize</a>
+          <a routerLink="search" routerLinkActive="active">Search</a>
+          <a routerLink="sorting" routerLinkActive="active">Sort</a>
+          <button type="button" (click)="logout()">Log Analyzer</button>
+      </div>
+    </div> -->
+
+<router-outlet></router-outlet>

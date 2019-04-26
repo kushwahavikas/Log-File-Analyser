@@ -1,0 +1,79 @@
+
+.navbar {
+  height: 90px;
+  background-color: transparent;
+  border: none;
+  color:black;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+}
+
+.navbar-default .navbar-brand {
+  margin-top: 10px;
+  color:black;
+}
+.navbar-default .navbar-brand:hover {
+  color: #C57ED3;
+  border: 1px solid #C57ED3;
+  
+}
+.navbar-default .navbar-nav > li > a {
+  color:black;
+  margin: 10px 5px 5px 5px;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
+  color: #46155E;
+  border: 1px solid#46155E;
+}
+.navbar-default .navbar-nav > li > a:visited {
+  color: #46155E;
+  text-decoration: none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  color: #46155E;
+}
+.navbar-default .navbar-toggle {
+  border-color: #46155E;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #490D40;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  color: #46155E;
+  background-color: #46155E;
+}
+.navbar-default .navbar-collapse.collapse.in ul {
+  background-color: #490D40;
+}
+
+/* Solid class attached on scroll past first section */
+.navbar.solid {
+  background-color: #490D40;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+}
+.navbar.solid .navbar-brand {
+  color: #46155E;
+  transition: color 1s ease 0s;
+}
+.navbar.solid .navbar-nav > li > a {
+  color: #46155E;
+  transition: color 1s ease 0s;
+}
+h1,h2{
+     color:#46155E;
+}
+.button{
+    background: #490D40;
+    background-color: #490D40;
+    
+}
+ button:hover{
+     background:linear-gradient(to right,darkblue 0%,red 40%,#0f0100 100%)
+}
+
+
+
+
